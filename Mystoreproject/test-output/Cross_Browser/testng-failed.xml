@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cross_Browser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.mystore.testcases.IndexPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifylogo"/>
+          <include name="teardown"/>
+          <include name="beforeSuite"/>
+          <include name="loadconfig"/>
+          <include name="TearDown"/>
+          <include name="verifytitle"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Cross_Browser] -->
